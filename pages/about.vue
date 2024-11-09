@@ -14,7 +14,7 @@
   }
   p {
     margin: 20px 0;
-    padding: 0px;
+  
   }
 </style>
 
