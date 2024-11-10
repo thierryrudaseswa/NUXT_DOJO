@@ -13,7 +13,7 @@
     font-size: 36px;
   }
   p {
-    margin: 20px 0;
+    margin: 20px ;
   
   }
 </style>
