@@ -10,7 +10,7 @@
           </ul>
         </nav>
       </header>
-      <div class="container mx-auto p-6">
+      <div class="container mx-auto">
         <slot />
       </div>
     </div>
