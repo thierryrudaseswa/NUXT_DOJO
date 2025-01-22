@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="grid grid-cols-4 gap-5 p-0">
+    <div class="grid grid-cols-4 gap-5">
       <div v-for="p in products" :key="p.id">
         <ProductCard :product="p" />
       </div>
@@ -9,7 +9,6 @@
 </template>
 
 <script setup>
-  //  fetch the products
   const { data: products } = await useFetch('https://fakestoreapi.com/products')
 
   definePageMeta({
