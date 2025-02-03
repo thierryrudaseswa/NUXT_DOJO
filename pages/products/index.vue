@@ -12,7 +12,7 @@
   const { data: products } = await useFetch('https://fakestoreapi.com/products')
 
   definePageMeta({
-    layout: "products",
+    layout: "products ",
   })
   useHead({
     title:'Nuxt Dojo for you | Merch',
